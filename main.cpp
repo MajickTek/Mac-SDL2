@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
 			    );
   if (window == NULL) {
     //fprintf(stderr, "could not create window: %s\n", SDL_GetError());
-    
+    quit("Could not create window: ");
     return 1;
   }
   screenSurface = SDL_GetWindowSurface(window);
