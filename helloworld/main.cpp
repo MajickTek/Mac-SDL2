@@ -1,4 +1,4 @@
-#include "MacSDL2.h"
+#include "../MacSDL2.h"
 
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
