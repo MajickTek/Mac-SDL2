@@ -4,7 +4,8 @@
 
 #include <SDL2/SDL.h>
 //#include <stdio.h>
-#include <cstdio>
+#include <cstdio> // for c++
+#include<iostream> // for c++
 
 #undef main //un-define SDL2's main function, this messes me up
 
